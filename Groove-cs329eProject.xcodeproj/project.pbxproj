@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1427F9C71EA5590D00E8CB81 /* CustomAssignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427F9C61EA5590D00E8CB81 /* CustomAssignment.swift */; };
+		1427FF7F1EA5778300672621 /* QuestionaireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427FF7E1EA5778300672621 /* QuestionaireViewController.swift */; };
+		14794CFE1EA532D700741F65 /* MonthsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14794CFD1EA532D700741F65 /* MonthsViewController.swift */; };
+		14794D001EA532F600741F65 /* DaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14794CFF1EA532F600741F65 /* DaysTableViewController.swift */; };
+		14794D021EA5336600741F65 /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14794D011EA5336600741F65 /* ScheduleTableViewController.swift */; };
+		FE04BDE61E9D9D2300575EC1 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE04BDE51E9D9D2300575EC1 /* Day.swift */; };
+		FE04BDE81E9DB53300575EC1 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE04BDE71E9DB53300575EC1 /* Config.swift */; };
+		FE06B7E11E81C56B00CFA6B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06B7E01E81C56B00CFA6B4 /* HomeViewController.swift */; };
+		FE06B7E31E81C58C00CFA6B4 /* AssignmentListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06B7E21E81C58C00CFA6B4 /* AssignmentListTableTableViewController.swift */; };
+		FE06B7E51E81C5AA00CFA6B4 /* AssignmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06B7E41E81C5AA00CFA6B4 /* AssignmentDetailViewController.swift */; };
+		FE06B7E71E81C5C200CFA6B4 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06B7E61E81C5C200CFA6B4 /* AddViewController.swift */; };
+		FE06B7E91E81C5D100CFA6B4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06B7E81E81C5D100CFA6B4 /* SettingsViewController.swift */; };
+		FE06B7EB1E81C8F300CFA6B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06B7EA1E81C8F300CFA6B4 /* LoginViewController.swift */; };
+		FE06B7ED1E81C90900CFA6B4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE06B7EC1E81C90900CFA6B4 /* RegisterViewController.swift */; };
+		FE1311831E7102DC00AE44C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1311821E7102DC00AE44C0 /* AppDelegate.swift */; };
+		FE1311881E7102DC00AE44C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1311861E7102DC00AE44C0 /* Main.storyboard */; };
+		FE13118B1E7102DC00AE44C0 /* Groove_cs329eProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE1311891E7102DC00AE44C0 /* Groove_cs329eProject.xcdatamodeld */; };
+		FE13118D1E7102DC00AE44C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE13118C1E7102DC00AE44C0 /* Assets.xcassets */; };
+		FE1311901E7102DC00AE44C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE13118E1E7102DC00AE44C0 /* LaunchScreen.storyboard */; };
+		FE13119B1E7102DC00AE44C0 /* Groove_cs329eProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13119A1E7102DC00AE44C0 /* Groove_cs329eProjectTests.swift */; };
+		FE1311A61E7102DC00AE44C0 /* Groove_cs329eProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1311A51E7102DC00AE44C0 /* Groove_cs329eProjectUITests.swift */; };
+		FEA1E2401EA1952E00345E29 /* TestAssignmentRetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E23F1EA1952E00345E29 /* TestAssignmentRetViewController.swift */; };
+		FEA1E2421EA1B48900345E29 /* FormatDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA1E2411EA1B48900345E29 /* FormatDate.swift */; };
+		FEC693851E9ECA1200718FC5 /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC693841E9ECA1200718FC5 /* NSDate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE1311971E7102DC00AE44C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1311771E7102DC00AE44C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE13117E1E7102DC00AE44C0;
+			remoteInfo = "Groove-cs329eProject";
+		};
+		FE1311A21E7102DC00AE44C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE1311771E7102DC00AE44C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE13117E1E7102DC00AE44C0;
+			remoteInfo = "Groove-cs329eProject";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1427F9C61EA5590D00E8CB81 /* CustomAssignment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAssignment.swift; sourceTree = "<group>"; };
+		1427FF7E1EA5778300672621 /* QuestionaireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionaireViewController.swift; sourceTree = "<group>"; };
+		14794CFD1EA532D700741F65 /* MonthsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthsViewController.swift; sourceTree = "<group>"; };
+		14794CFF1EA532F600741F65 /* DaysTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysTableViewController.swift; sourceTree = "<group>"; };
+		14794D011EA5336600741F65 /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		FE04BDE51E9D9D2300575EC1 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		FE04BDE71E9DB53300575EC1 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		FE06B7E01E81C56B00CFA6B4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FE06B7E21E81C58C00CFA6B4 /* AssignmentListTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentListTableTableViewController.swift; sourceTree = "<group>"; };
+		FE06B7E41E81C5AA00CFA6B4 /* AssignmentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignmentDetailViewController.swift; sourceTree = "<group>"; };
+		FE06B7E61E81C5C200CFA6B4 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		FE06B7E81E81C5D100CFA6B4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		FE06B7EA1E81C8F300CFA6B4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FE06B7EC1E81C90900CFA6B4 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FE13117F1E7102DC00AE44C0 /* Groove-cs329eProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Groove-cs329eProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1311821E7102DC00AE44C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE1311871E7102DC00AE44C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE13118A1E7102DC00AE44C0 /* Groove_cs329eProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Groove_cs329eProject.xcdatamodel; sourceTree = "<group>"; };
+		FE13118C1E7102DC00AE44C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE13118F1E7102DC00AE44C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE1311911E7102DC00AE44C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1311961E7102DC00AE44C0 /* Groove-cs329eProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Groove-cs329eProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE13119A1E7102DC00AE44C0 /* Groove_cs329eProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groove_cs329eProjectTests.swift; sourceTree = "<group>"; };
+		FE13119C1E7102DC00AE44C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE1311A11E7102DC00AE44C0 /* Groove-cs329eProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Groove-cs329eProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1311A51E7102DC00AE44C0 /* Groove_cs329eProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groove_cs329eProjectUITests.swift; sourceTree = "<group>"; };
+		FE1311A71E7102DC00AE44C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA1E23F1EA1952E00345E29 /* TestAssignmentRetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAssignmentRetViewController.swift; sourceTree = "<group>"; };
+		FEA1E2411EA1B48900345E29 /* FormatDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormatDate.swift; sourceTree = "<group>"; };
+		FEC693841E9ECA1200718FC5 /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE13117C1E7102DC00AE44C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1311931E7102DC00AE44C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE13119E1E7102DC00AE44C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE1311761E7102DC00AE44C0 = {
+			isa = PBXGroup;
+			children = (
+				FE1311811E7102DC00AE44C0 /* Groove-cs329eProject */,
+				FE1311991E7102DC00AE44C0 /* Groove-cs329eProjectTests */,
+				FE1311A41E7102DC00AE44C0 /* Groove-cs329eProjectUITests */,
+				FE1311801E7102DC00AE44C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE1311801E7102DC00AE44C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE13117F1E7102DC00AE44C0 /* Groove-cs329eProject.app */,
+				FE1311961E7102DC00AE44C0 /* Groove-cs329eProjectTests.xctest */,
+				FE1311A11E7102DC00AE44C0 /* Groove-cs329eProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE1311811E7102DC00AE44C0 /* Groove-cs329eProject */ = {
+			isa = PBXGroup;
+			children = (
+				FE1311821E7102DC00AE44C0 /* AppDelegate.swift */,
+				FE1311861E7102DC00AE44C0 /* Main.storyboard */,
+				FE06B7EC1E81C90900CFA6B4 /* RegisterViewController.swift */,
+				FE06B7EA1E81C8F300CFA6B4 /* LoginViewController.swift */,
+				FE06B7E01E81C56B00CFA6B4 /* HomeViewController.swift */,
+				FEC693841E9ECA1200718FC5 /* NSDate.swift */,
+				FEA1E23F1EA1952E00345E29 /* TestAssignmentRetViewController.swift */,
+				1427F9C61EA5590D00E8CB81 /* CustomAssignment.swift */,
+				FE04BDE71E9DB53300575EC1 /* Config.swift */,
+				1427FF7E1EA5778300672621 /* QuestionaireViewController.swift */,
+				FE06B7E41E81C5AA00CFA6B4 /* AssignmentDetailViewController.swift */,
+				FEA1E2411EA1B48900345E29 /* FormatDate.swift */,
+				FE06B7E21E81C58C00CFA6B4 /* AssignmentListTableTableViewController.swift */,
+				14794D011EA5336600741F65 /* ScheduleTableViewController.swift */,
+				14794CFF1EA532F600741F65 /* DaysTableViewController.swift */,
+				14794CFD1EA532D700741F65 /* MonthsViewController.swift */,
+				FE04BDE51E9D9D2300575EC1 /* Day.swift */,
+				FE06B7E61E81C5C200CFA6B4 /* AddViewController.swift */,
+				FE06B7E81E81C5D100CFA6B4 /* SettingsViewController.swift */,
+				FE13118C1E7102DC00AE44C0 /* Assets.xcassets */,
+				FE13118E1E7102DC00AE44C0 /* LaunchScreen.storyboard */,
+				FE1311911E7102DC00AE44C0 /* Info.plist */,
+				FE1311891E7102DC00AE44C0 /* Groove_cs329eProject.xcdatamodeld */,
+			);
+			path = "Groove-cs329eProject";
+			sourceTree = "<group>";
+		};
+		FE1311991E7102DC00AE44C0 /* Groove-cs329eProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE13119A1E7102DC00AE44C0 /* Groove_cs329eProjectTests.swift */,
+				FE13119C1E7102DC00AE44C0 /* Info.plist */,
+			);
+			path = "Groove-cs329eProjectTests";
+			sourceTree = "<group>";
+		};
+		FE1311A41E7102DC00AE44C0 /* Groove-cs329eProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE1311A51E7102DC00AE44C0 /* Groove_cs329eProjectUITests.swift */,
+				FE1311A71E7102DC00AE44C0 /* Info.plist */,
+			);
+			path = "Groove-cs329eProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE13117E1E7102DC00AE44C0 /* Groove-cs329eProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1311AA1E7102DC00AE44C0 /* Build configuration list for PBXNativeTarget "Groove-cs329eProject" */;
+			buildPhases = (
+				FE13117B1E7102DC00AE44C0 /* Sources */,
+				FE13117C1E7102DC00AE44C0 /* Frameworks */,
+				FE13117D1E7102DC00AE44C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Groove-cs329eProject";
+			productName = "Groove-cs329eProject";
+			productReference = FE13117F1E7102DC00AE44C0 /* Groove-cs329eProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE1311951E7102DC00AE44C0 /* Groove-cs329eProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1311AD1E7102DC00AE44C0 /* Build configuration list for PBXNativeTarget "Groove-cs329eProjectTests" */;
+			buildPhases = (
+				FE1311921E7102DC00AE44C0 /* Sources */,
+				FE1311931E7102DC00AE44C0 /* Frameworks */,
+				FE1311941E7102DC00AE44C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1311981E7102DC00AE44C0 /* PBXTargetDependency */,
+			);
+			name = "Groove-cs329eProjectTests";
+			productName = "Groove-cs329eProjectTests";
+			productReference = FE1311961E7102DC00AE44C0 /* Groove-cs329eProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE1311A01E7102DC00AE44C0 /* Groove-cs329eProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE1311B01E7102DC00AE44C0 /* Build configuration list for PBXNativeTarget "Groove-cs329eProjectUITests" */;
+			buildPhases = (
+				FE13119D1E7102DC00AE44C0 /* Sources */,
+				FE13119E1E7102DC00AE44C0 /* Frameworks */,
+				FE13119F1E7102DC00AE44C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE1311A31E7102DC00AE44C0 /* PBXTargetDependency */,
+			);
+			name = "Groove-cs329eProjectUITests";
+			productName = "Groove-cs329eProjectUITests";
+			productReference = FE1311A11E7102DC00AE44C0 /* Groove-cs329eProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE1311771E7102DC00AE44C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = cs329e;
+				TargetAttributes = {
+					FE13117E1E7102DC00AE44C0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					FE1311951E7102DC00AE44C0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE13117E1E7102DC00AE44C0;
+					};
+					FE1311A01E7102DC00AE44C0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE13117E1E7102DC00AE44C0;
+					};
+				};
+			};
+			buildConfigurationList = FE13117A1E7102DC00AE44C0 /* Build configuration list for PBXProject "Groove-cs329eProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE1311761E7102DC00AE44C0;
+			productRefGroup = FE1311801E7102DC00AE44C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE13117E1E7102DC00AE44C0 /* Groove-cs329eProject */,
+				FE1311951E7102DC00AE44C0 /* Groove-cs329eProjectTests */,
+				FE1311A01E7102DC00AE44C0 /* Groove-cs329eProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE13117D1E7102DC00AE44C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1311901E7102DC00AE44C0 /* LaunchScreen.storyboard in Resources */,
+				FE13118D1E7102DC00AE44C0 /* Assets.xcassets in Resources */,
+				FE1311881E7102DC00AE44C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1311941E7102DC00AE44C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE13119F1E7102DC00AE44C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE13117B1E7102DC00AE44C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14794D021EA5336600741F65 /* ScheduleTableViewController.swift in Sources */,
+				FE06B7ED1E81C90900CFA6B4 /* RegisterViewController.swift in Sources */,
+				FE06B7E51E81C5AA00CFA6B4 /* AssignmentDetailViewController.swift in Sources */,
+				FE13118B1E7102DC00AE44C0 /* Groove_cs329eProject.xcdatamodeld in Sources */,
+				FE06B7E91E81C5D100CFA6B4 /* SettingsViewController.swift in Sources */,
+				FE04BDE81E9DB53300575EC1 /* Config.swift in Sources */,
+				FE06B7E71E81C5C200CFA6B4 /* AddViewController.swift in Sources */,
+				FE06B7EB1E81C8F300CFA6B4 /* LoginViewController.swift in Sources */,
+				FE1311831E7102DC00AE44C0 /* AppDelegate.swift in Sources */,
+				FE06B7E11E81C56B00CFA6B4 /* HomeViewController.swift in Sources */,
+				FEA1E2401EA1952E00345E29 /* TestAssignmentRetViewController.swift in Sources */,
+				FEA1E2421EA1B48900345E29 /* FormatDate.swift in Sources */,
+				1427F9C71EA5590D00E8CB81 /* CustomAssignment.swift in Sources */,
+				FEC693851E9ECA1200718FC5 /* NSDate.swift in Sources */,
+				1427FF7F1EA5778300672621 /* QuestionaireViewController.swift in Sources */,
+				14794CFE1EA532D700741F65 /* MonthsViewController.swift in Sources */,
+				14794D001EA532F600741F65 /* DaysTableViewController.swift in Sources */,
+				FE04BDE61E9D9D2300575EC1 /* Day.swift in Sources */,
+				FE06B7E31E81C58C00CFA6B4 /* AssignmentListTableTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE1311921E7102DC00AE44C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE13119B1E7102DC00AE44C0 /* Groove_cs329eProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE13119D1E7102DC00AE44C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1311A61E7102DC00AE44C0 /* Groove_cs329eProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE1311981E7102DC00AE44C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE13117E1E7102DC00AE44C0 /* Groove-cs329eProject */;
+			targetProxy = FE1311971E7102DC00AE44C0 /* PBXContainerItemProxy */;
+		};
+		FE1311A31E7102DC00AE44C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE13117E1E7102DC00AE44C0 /* Groove-cs329eProject */;
+			targetProxy = FE1311A21E7102DC00AE44C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE1311861E7102DC00AE44C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE1311871E7102DC00AE44C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE13118E1E7102DC00AE44C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE13118F1E7102DC00AE44C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE1311A81E7102DC00AE44C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE1311A91E7102DC00AE44C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE1311AB1E7102DC00AE44C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Groove-cs329eProject/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs329e.Groove-cs329eProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FE1311AC1E7102DC00AE44C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Groove-cs329eProject/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs329e.Groove-cs329eProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FE1311AE1E7102DC00AE44C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Groove-cs329eProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs329e.Groove-cs329eProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groove-cs329eProject.app/Groove-cs329eProject";
+			};
+			name = Debug;
+		};
+		FE1311AF1E7102DC00AE44C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Groove-cs329eProjectTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs329e.Groove-cs329eProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groove-cs329eProject.app/Groove-cs329eProject";
+			};
+			name = Release;
+		};
+		FE1311B11E7102DC00AE44C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Groove-cs329eProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs329e.Groove-cs329eProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Groove-cs329eProject";
+			};
+			name = Debug;
+		};
+		FE1311B21E7102DC00AE44C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Groove-cs329eProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs329e.Groove-cs329eProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Groove-cs329eProject";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE13117A1E7102DC00AE44C0 /* Build configuration list for PBXProject "Groove-cs329eProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1311A81E7102DC00AE44C0 /* Debug */,
+				FE1311A91E7102DC00AE44C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1311AA1E7102DC00AE44C0 /* Build configuration list for PBXNativeTarget "Groove-cs329eProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1311AB1E7102DC00AE44C0 /* Debug */,
+				FE1311AC1E7102DC00AE44C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1311AD1E7102DC00AE44C0 /* Build configuration list for PBXNativeTarget "Groove-cs329eProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1311AE1E7102DC00AE44C0 /* Debug */,
+				FE1311AF1E7102DC00AE44C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE1311B01E7102DC00AE44C0 /* Build configuration list for PBXNativeTarget "Groove-cs329eProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE1311B11E7102DC00AE44C0 /* Debug */,
+				FE1311B21E7102DC00AE44C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE1311891E7102DC00AE44C0 /* Groove_cs329eProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE13118A1E7102DC00AE44C0 /* Groove_cs329eProject.xcdatamodel */,
+			);
+			currentVersion = FE13118A1E7102DC00AE44C0 /* Groove_cs329eProject.xcdatamodel */;
+			path = Groove_cs329eProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE1311771E7102DC00AE44C0 /* Project object */;
+}
