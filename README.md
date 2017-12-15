@@ -12,6 +12,7 @@ New Assignment view
 Dual-segue setup from Assignments table view
 README editor
 Debugged segue code on assignment detail page 
+Lead algorithm class and algorithm developer
 
 
 Chien Chih Huang: 28%
